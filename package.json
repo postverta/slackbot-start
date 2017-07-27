@@ -1,0 +1,30 @@
+{
+  "name": "slackbot-start",
+  "version": "0.1.0",
+  "description": "Starter project for a slack bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/postverta/slackbot-start.git"
+  },
+  "keywords": [
+    "slack",
+    "express"
+  ],
+  "author": "Ang Li",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/postverta/slackbot-start/issues"
+  },
+  "homepage": "https://github.com/postverta/slackbot-start#readme",
+  "dependencies": {
+    "@slack/client": "^3.10.0",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  }
+}
